@@ -1,0 +1,32 @@
+
+.buttcontainer {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+.inactive {
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    flex: 1 1 0;
+    width: 0;
+    height: '30px';
+    font-size: '14px';
+}
+.active {
+    text-align: center;
+    background-color: #404040;
+    color: white;
+    flex: 1 1 0;
+    width: 0;
+    height: '30px';
+    font-size: '14px';
+}
+.link {
+    color: white;
+    text-decoration: none;
+}

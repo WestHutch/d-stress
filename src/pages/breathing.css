@@ -1,0 +1,24 @@
+.background {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+.bigText {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -200px;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottomPortion {
+    background-color: black;
+    width: 100vw;
+    height: calc(100vh - 30px);
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

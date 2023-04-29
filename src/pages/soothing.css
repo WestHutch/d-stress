@@ -1,0 +1,22 @@
+.soundCard {
+    width: 100vw;
+    height: 50px;
+}
+.soundLabel {
+    color: white;
+}
+.soundIcon {
+    color: white;
+}
+.backGround {
+    background-color: black;
+    width: 100vw;
+    height: calc(100vh - 30px);
+}
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.soundTable {
+    position: relative;
+    left: calc(50vw - 75px);
+}
