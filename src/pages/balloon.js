@@ -86,8 +86,8 @@ function CircleRain() {
   }, []);
 
   return (
-    <div style={{ overflow: "hidden", backgroundColor: "#00BFFF"}}>
-      <svg height={window.innerHeight-30} width={window.innerWidth}>
+    <div style={{backgroundColor: "#00BFFF", position: "fixed", left: "0px", top: "0px", width: "100vw", height: "100vh"}}>
+      <svg height={window.innerHeight} width={window.innerWidth}>
         {circles.map((circle) => (
           <Circle
             key={circle.id}

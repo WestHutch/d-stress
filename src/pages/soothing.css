@@ -9,9 +9,12 @@
     color: white;
 }
 .backGround {
-    background-color: black;
+    position: fixed;
+    left: 0px;
+    top: 0px;
     width: 100vw;
-    height: calc(100vh - 30px);
+    height: 100vh;
+    background-color: black;
 }
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

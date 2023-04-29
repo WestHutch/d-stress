@@ -13,12 +13,11 @@
     font-size: 32px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.bottomPortion {
-    background-color: black;
+.backdrop {
+    position: fixed;
+    left: 0px;
+    top: 0px;
     width: 100vw;
-    height: calc(100vh - 30px);
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
+    height: 100vh;
+    background-color: black;
 }

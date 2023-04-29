@@ -122,7 +122,7 @@ const Breathing = () => {
   }, []);
 
   return (
-    <>
+    <div className='backdrop'>
       <svg width="300" height="300">
         <animated.line
           x1={0}
@@ -170,10 +170,7 @@ const Breathing = () => {
           {msg}
         </p>
       </div>
-      <div className="bottomPortion">
-        
-      </div>
-    </>
+    </div>
   );
 };
 
