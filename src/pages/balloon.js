@@ -8,18 +8,28 @@ function Circle(props) {
     onClick(id);
   };
 
-  if (position.y < -size) {
+  if (position.y < (3.5 * -size)) {
     onDelete(id);
   }
 
   return (
-    <circle
-      cx={position.x}
-      cy={position.y}
-      r={size}
-      fill={color}
-      onClick={handleClick}
-    />
+    <>
+      <circle
+        cx={position.x}
+        cy={position.y}
+        r={size}
+        fill={color}
+        onClick={handleClick}
+      />
+      <line
+        x1={position.x}
+        y1={position.y + size}
+        x2={position.x}
+        y2={position.y + (2.5 * size)}
+        stroke="black"
+        strokeWidth="2"
+      />
+    </>
   );
 }
 
@@ -41,7 +51,7 @@ function CircleRain() {
   const addCircle = () => {
     const newCircle = {
       id: Date.now(),
-      size: Math.floor(Math.random() * 50) + 10,
+      size: Math.floor(Math.random() * 40) + 20,
       color: `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(
         Math.random() * 256
       )}, ${Math.floor(Math.random() * 256)})`,

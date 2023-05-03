@@ -123,7 +123,7 @@ const Breathing = () => {
 
   return (
     <div className='backdrop'>
-      <svg width="300" height="300">
+      <svg className="svgSquare" width="300" height="300">
         <animated.line
           x1={0}
           y1={0}

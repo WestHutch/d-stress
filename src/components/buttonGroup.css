@@ -2,7 +2,7 @@
 .buttcontainer {
     display: flex;
     flex-direction: row;
-    height: 30px;
+    height: 60px;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -11,22 +11,27 @@
 .inactive {
     text-align: center;
     background-color: rgb(37, 37, 37);
+    background-color: rgba(37, 37, 37, 0.8);
     color: white;
     flex: 1 1 0;
     width: 0;
-    height: '30px';
+    height: '60px';
     font-size: '14px';
 }
 .active {
     text-align: center;
-    background-color: #404040;
+    background-color: rgb(64, 64, 64);
+    background-color: rgba(64, 64, 64, 0.8);
     color: white;
     flex: 1 1 0;
     width: 0;
-    height: '30px';
+    height: '60px';
     font-size: '14px';
 }
 .link {
     color: white;
     text-decoration: none;
+}
+p {
+    margin-top: 10px;
 }

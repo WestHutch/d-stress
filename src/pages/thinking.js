@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './thinking.css';
+
+let prevNum = 100;
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -13,6 +15,7 @@ function addNewLine(str) {
 
 
 const Thinking = () => {
+  const [currentExercise, setCurrentExercise] = useState();
   const exerciseArr = [
     "Remind yourself of who you are now. Say your name. Say your age now. Say where you are now. Say what you have done today. Say what you will do next.",
     "Turn your attention to the clothes on your body, whether your arms and legs are covered or not, and the sensation of your clothes as you move in them. Notice how your feet feel to be encased in shoes or socks, or resting on the floor.",
@@ -22,12 +25,26 @@ const Thinking = () => {
     "Notice five things you can see, five things you can hear, and five things you can feel, taste, or smell.",
     "Run your hands over something with an interesting texture. Describe it in your mind, as if you have never felt anything like it before."
   ];
-  const chose = getRandomInt(exerciseArr.length);
+  
+  const randomizeQuote = () => {
+    let chose = getRandomInt(exerciseArr.length);
+    while (prevNum === chose) //ensure new random thinking exercise is not the same as the previous one
+    {
+      chose = getRandomInt(exerciseArr.length);
+    }
+    prevNum = chose;
+    setCurrentExercise(addNewLine(exerciseArr[chose]));
+  };
+
+  useEffect(() => {
+    randomizeQuote();
+  }, []);
 
   return (
     <div className="backdrop">
       <h1 className="title">Thinking Exercises</h1>
-      <p className="quote">{addNewLine(exerciseArr[chose])}</p>
+      <p className="quote">{currentExercise}</p>
+      <button className="butt" onClick={() => randomizeQuote()}>New Exercise</button>
     </div>
   );
 };

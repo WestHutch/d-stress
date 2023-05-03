@@ -25,3 +25,7 @@
     text-align: center;
     white-space: pre-line;
 }
+.butt {
+    background-color: rgb(37, 37, 37);
+    margin-top: 10px;
+}

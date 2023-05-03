@@ -21,3 +21,6 @@
     height: 100vh;
     background-color: black;
 }
+.svgSquare {
+    padding-top: calc(50vh - 210px); /* half of the screen height - half of the box height - the nav bar height */
+}
