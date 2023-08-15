@@ -2,3 +2,6 @@ D-Stress is a Progressive Web App I created for the honors program at my univers
 
 You can find the project hosted here
 https://d-stress.netlify.app/
+
+You can read more about the project here
+https://westonhutchings.wordpress.com/d-stress/
