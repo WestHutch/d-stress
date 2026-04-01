@@ -29,5 +29,12 @@ npm start
 ```
 
 ## About
+
 You can read more about the creation of the project here:
 https://westonhutchings.wordpress.com/d-stress/
+
+## License
+
+All rights reserved.
+
+You may view this code for educational purposes. Small snippets may be reused, but copying substantial portions of this project or redistributing it is not permitted without explicit permission.
