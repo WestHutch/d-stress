@@ -27,7 +27,7 @@ https://d-stress.netlify.app/
 ## Installation
 
 ```
-git clone https://github.com/yourusername/d-stress.git
+git clone https://github.com/WestHutch/d-stress.git
 cd d-stress
 npm install
 npm start
