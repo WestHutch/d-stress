@@ -5,12 +5,19 @@
   <p align="center">
     <img src="https://img.shields.io/badge/built%20with-React-blue?logo=react&logoColor=white" />
     <img src="https://img.shields.io/badge/PWA-Progressive%20Web%20App-brightgreen" />
-	  <img src="https://img.shields.io/badge/license-All%20Rights%20Reserved-lightgrey">
+	<img src="https://img.shields.io/badge/license-All%20Rights%20Reserved-lightgrey">
   </p>
 </p>
 
 D-Stress is a Progressive Web App I created for the honors program at my university. It contains multiple simple methods of stress relief such as soothing sounds, fidgets, and breathing exercises. Designed for short, effective stress relief sessions rather than prolonged use. It is meant to be used on mobile, but it also works well on desktop.
 
+## Preview
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;">
+  <img src="./screenshots/balloons.png" style="height: 660px; width: 300px;">
+  <img src="./screenshots/bubbles.png" style="height: 660px; width: 300px">
+  <img src="./screenshots/square_breath.png" style="height: 660px; width: 300px">
+</div>
 
 ## Demo
 
