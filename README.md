@@ -13,11 +13,11 @@ D-Stress is a Progressive Web App I created for the honors program at my univers
 
 ## Preview
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;">
-  <img src="./screenshots/balloons.png" style="height: 660px; width: 300px;">
-  <img src="./screenshots/bubbles.png" style="height: 660px; width: 300px">
-  <img src="./screenshots/square_breath.png" style="height: 660px; width: 300px">
-</div>
+<p align="center">
+  <img src="./screenshots/balloons.png" style="height: 561px; width: 255px;">
+  <img src="./screenshots/bubbles.png" style="height: 561px; width: 255px">
+  <img src="./screenshots/square_breath.png" style="height: 561px; width: 255px">
+</p>
 
 ## Demo
 
